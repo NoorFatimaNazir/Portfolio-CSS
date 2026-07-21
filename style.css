@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noor Fatima| Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ===== INTERNAL CSS EXAMPLE ===== -->
+  <style>
+    .local-note {
+      color: #6c757d;
+      font-size: 0.85rem;
+      text-align: center;
+      margin-top: 0.4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Noor<span class="dot">.</span>Fatima</div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="hero">
+    <h1>Noor Fatima</h1>
+    <p class="intro">Front-end developer &amp; UI enthusiast, currently sharpening my HTML, CSS and JavaScript skills.</p>
+
+    <!-- ===== INLINE CSS EXAMPLE ===== -->
+    <p style="color: #ffe8d6; font-weight: 600; letter-spacing: 0.3px;">🟢 Currently open to internship opportunities</p>
+  </header>
+
+  <section class="profile-section">
+    <div class="profile-wrap">
+      <img src="/pic .jpeg" alt="Photo of Sara Khan" id="profilePic">
+      <span class="status-dot" title="Available"></span>
+    </div>
+  </section>
+
+  <main>
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3 &amp; Flexbox</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Responsive Design</div>
+      </div>
+    </section>
+
+    <section id="articles" class="articles">
+      <h2>Latest Articles</h2>
+      <div class="article-list">
+        <article class="article-card">
+          <h3>Why I Started Learning Web Development</h3>
+          <p>A short reflection on how I got into coding and what keeps me motivated to build things.</p>
+        </article>
+        <article class="article-card">
+          <h3>My Favourite CSS Layout Tricks</h3>
+          <p>Flexbox, the box model, and a few small habits that make my layouts easier to maintain.</p>
+        </article>
+        <article class="article-card">
+          <h3>Lessons From My First Portfolio</h3>
+          <p>What I'd do differently now that I understand responsive, mobile-first design.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Noor Fatima. All rights reserved.</p>
+    <p class="local-note">Built with HTML, CSS &amp; lots of coffee ☕</p>
+  </footer>
+
+</body>
+</html>
